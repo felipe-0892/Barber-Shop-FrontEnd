@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./assets/logo-black.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/output.css">
+    <title>Emerson Kelvin | Barber Shop</title>
+</head>
+
+<body>
+    
+
+
+    <script>
+        // Alternar entre os temas
+        const body = document.getElementById('body');
+        const toggleButton = document.getElementById('theme-toggle');
+
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('bg-whitenormal'); // Tema claro
+            body.classList.toggle('text-black');
+            body.classList.toggle('bg-primarynormal'); // Tema escuro
+            body.classList.toggle('text-white');
+        });
+
+        // Seleciona o botão
+        const VoltarTopo = document.getElementById("btnVoltarTopo");
+
+        // Exibe o botão quando o usuário rolar para baixo
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                VoltarTopo.style.display = "block";
+            } else {
+                VoltarTopo.style.display = "none";
+            }
+        };
+
+        // Volta ao topo quando o botão for clicado
+        VoltarTopo.onclick = function () {
+            window.scrollTo({
+                top: 0, // A posição final (topo da página)
+                behavior: "smooth" // Rolagem suave
+            });
+        };
+    </script>
+</body>
+
+</html>

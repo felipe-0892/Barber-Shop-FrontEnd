@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./assets/logo-black.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/output.css">
+    <title>Emerson Kelvin | Barber Shop</title>
+</head>
+
+<body class="bg-whitenormal text-black" id="body">
+    <header class=" flex flex-col items-center">
+        <button id="theme-toggle"
+            class="fixed top-4 left-4 flex items-center justify-center bg-orangedark rounded-full shadow-lg p-3 ">
+            <i class="fa-solid fa-sun fa-2x"></i>
+        </button>
+        <div
+            class="h-auto w-auto p-[12px] flex flex-col md:flex-row justify-center items-center md:px-[40px] md:h-[125px] gap-[22px]">
+            <nav class="flex gap-6">
+                <a href="#"><i
+                        class="fa-brands fa-instagram fa-2x text-orangenormal hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-facebook fa-2x text-orangenormal hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-twitter fa-2x text-orangenormal hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-tiktok fa-2x text-orangenormal hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="banner-logo"
+            class="bg-primarynormal bg-cover bg-no-repeat h-[450px] mb-[30px] md:bg-primarylight md:w-[1200px] md:mt-6 md:m-auto md:h-[450px] md:rounded-2xl flex justify-center items-center">
+            <!-- Conteúdo centralizado -->
+            <div class="flex flex-col justify-center items-center text-center space-y-6">
+                <!-- Imagem -->
+                <div class="hover:scale-125 duration-200">
+                    <img class="md:w-[100px] md:h-[100px] w-[100px] h-[100px] " src="./assets/logo.svg" alt="Logo">
+                </div>
+                <!-- Texto -->
+                <h1
+                    class="leading-extra-tight font-bold text-[32px] md:text-[45px] w-[380px] text-orangenormal md:w-[600px]">
+                    ESTILO É UM REFLEXO DA SUA PERSONALIDADE E ATITUDE.
+                </h1>
+                <p class="text-[20px] md:text-[22px] text-whitedark md:text-orangelight hover:scale-125 duration-300">
+                    Horário de funcionamento: 09:00 às 19:00
+                </p>
+                <!-- Botão -->
+                <button
+                    class="px-4 py-2 border border-orangenormal rounded-lg hover:bg-orangelight text-white hover:text-gray-700 transition duration-200 ease-in-out focus:outline-none">
+                    Agendar horário
+                </button>
+            </div>
+        </section>
+
+        <section id="banner-section"
+            class="bg-primarynormal bg-cover bg-no-repeat p-10 flex flex-row justify-between items-center gap-1 md:h-[580px] mb-[20px] md:bg-primarylight md:w-[1200px] md:mt-6 md:m-auto md:rounded-2xl">
+            <div class="md:w-[500px] pb-[32px] h-100">
+                <img class="hidden sm:block" src="./assets/images.svg" alt="img-barber">
+            </div>
+            <div class="bg-orangedark rounded-lg md:w-[500px] p-[20px] md:p-[20px] md:h-[300px]">
+                <h3 class="text-white text-[32px] font-bold">SOBRE</h3>
+                <p class="text-white font-semibold  ">Desde 2022, a <span class="bg-primarynormal"><strong>Barbearia
+                            Emerson Kelvin</strong></span> é referência em estilo e cuidado masculino. Combinamos
+                    técnicas
+                    tradicionais e modernas
+                    para oferecer cortes de cabelo impecáveis, barbas bem definidas e uma experiência única em um
+                    ambiente
+                    acolhedor e sofisticado. Acreditamos que o cuidado masculino vai além do visual: é um momento para
+                    relaxar, renovar e se sentir bem. Do corte ao estilo, estamos aqui para destacar sua melhor versão,
+                    sempre com um papo descontraído e um café fresco esperando por você.</p>
+            </div>
+        </section>
+        <section id="services-section"
+            class="flex flex-col gap-2 p-[30px] mb-5 md:m-[45px] md:mx-[70px] md:flex md:flex-row">
+            <div class="bg-primarylight rounded-lg md:w-[600px] p-[30px]">
+                <h3 class="text-white text-[32px] font-bold">SERVIÇOS</h3>
+                <p class="text-white font-semibold  ">Desde 2022, a <span class="bg-primarynormal"><strong>Barbearia
+                            Emerson Kelvin</strong></span> é referência em estilo e cuidado masculino. Combinamos
+                    técnicas
+                    tradicionais e modernas
+                    para oferecer cortes de cabelo impecáveis, barbas bem definidas e uma experiência única em um
+                    ambiente
+                    acolhedor e sofisticado. Acreditamos que o cuidado masculino vai além do visual: é um momento para
+                    relaxar, renovar e se sentir bem. Do corte ao estilo, estamos aqui para destacar sua melhor versão,
+                    sempre com um papo descontraído e um café fresco esperando por você.</p>
+            </div>
+            <section class="w-full flex justify-center items-center p-5 bg-orangedark rounded-lg">
+                <div class="flex flex-col lg:flex-row gap-8">
+
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                        <img class="w-64 md:w-72 bg-cover mb-4" src="/assets/corte1.png" alt="Imagem do corte completo">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Cabelo Completo</h3>
+                            <p class="text-gray-600 mb-2">Corte de cabelo completo</p>
+                            <p class="text-4xl font-bold text-gray-800 mb-4">R$22<span
+                                    class="text-xl font-normal text-gray-600">/corte</span></p>
+                        </div>
+                        <button
+                            class="w-full px-4 py-2 border border-orange-500 text-orangedark rounded-lg hover:bg-orange-500 hover:text-white transition duration-200 ease-in-out focus:outline-none">
+                            Quero este !
+                        </button>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                        <img class="w-64 md:w-72 bg-cover mb-4" src="/assets/corte2.png" alt="Imagem do corte completo">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Barba Completa</h3>
+                            <p class="text-gray-600 mb-2">Corte de barba completa</p>
+                            <p class="text-4xl font-bold text-gray-800 mb-4">R$18<span
+                                    class="text-xl font-normal text-gray-600">/corte</span></p>
+                        </div>
+                        <button
+                            class="w-full px-4 py-2 border border-orange-500 text-orangedark rounded-lg hover:bg-orange-500 hover:text-white transition duration-200 ease-in-out focus:outline-none">
+                            Quero este !
+                        </button>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                        <img class="w-64 md:w-72 bg-cover mb-4" src="/assets/corte3.png" alt="Imagem do corte completo">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Corte Completo</h3>
+                            <p class="text-gray-600 mb-2">Cabelo e barba completos</p>
+                            <p class="text-4xl font-bold text-gray-800 mb-4">R$30<span
+                                    class="text-xl font-normal text-gray-600">/corte</span></p>
+                        </div>
+                        <button
+                            class="w-full px-4 py-2 border border-orange-500 text-orangedark rounded-lg hover:bg-orange-500 hover:text-white transition duration-200 ease-in-out focus:outline-none">
+                            Quero este !
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="maps-section"
+            class="bg-primarynormal flex flex-col justify-center items-center h-auto py-10 md:bg-primarylight md:w-[1200px] md:mt-6 md:m-auto md:rounded-2xl">
+            <!-- Título -->
+            <div class="text-center mb-6">
+                <h3 class="text-orangedark text-2xl md:text-3xl font-bold">Venha nos conhecer</h3>
+            </div>
+
+            <!-- Mapa -->
+            <div class="rounded-md border-[8px] border-orangedark shadow-lg w-full max-w-[900px]">
+                <div class="relative overflow-hidden rounded-md" style="padding-top: 56.25%;">
+                    <iframe class="absolute top-0 left-0 w-full h-full rounded-md"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.44422467928!2d-37.05535530597926!3d-10853778139081383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x7054c8e1f6569c9%3A0x1dba93293a996ea!2sShopping%20S%C3%A3o%20Braz!5e0!3m2!1spt-BR!2sbr!4v1734728406959!5m2!1spt-BR!2sbr"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="w-full h-[220px] mt-[40px] flex flex-col justify-center items-center bg-orangedark">
+        <nav class="flex flex-row justify-center items-center gap-[32px]">
+            <a href="#"><i
+                    class="fa-brands fa-instagram fa-2x text-black hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+            <a href="#"><i
+                    class="fa-brands fa-facebook fa-2x text-black hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+            <a href="#"><i
+                    class="fa-brands fa-twitter fa-2x text-black hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+            <a href="#"><i
+                    class="fa-brands fa-tiktok fa-2x text-black hover:text-gray-700 hover:scale-110 duration-200"></i></a>
+        </nav>
+        <img class="md:w-[100px] md:h-[100px] w-[100px] h-[100px] " src="./assets/logo-black.svg" alt="Logo">
+        <p class="text-[16px] w-[320px] text-center md:text-[18px] md:w-[800px]">Copyright © 2024 | Todos os direitos
+            reservados | Emerson Kelvin Barber Shop</p>
+    </footer>
+    <div class="flex justify-end">
+        <button id="btnVoltarTopo"
+            class="bg-gray-800 text-white p-3 rounded-md shadow-md hover:bg-gray-700 focus:ring-2 focus:ring-gray-500 transition duration-200 ease-in-out fixed bottom-4 right-4 z-50"
+            title="Voltar ao topo">
+            ↑
+        </button>
+    </div>
+    <script>
+        // Alternar entre os temas
+        const body = document.getElementById('body');
+        const toggleButton = document.getElementById('theme-toggle');
+
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('bg-whitenormal'); // Tema claro
+            body.classList.toggle('text-black');
+            body.classList.toggle('bg-primarynormal'); // Tema escuro
+            body.classList.toggle('text-white');
+        });
+
+        const themeToggleButton = document.getElementById("theme-toggle");
+        const themeIcon = document.getElementById("theme-icon");
+
+        themeToggleButton.addEventListener("click", () => {
+            // Alterna o tema
+            document.documentElement.classList.toggle("dark");
+
+            // Adiciona a animação de rotação
+            themeIcon.classList.toggle("rotate-180");
+        });
+
+        // Seleciona o botão
+        const VoltarTopo = document.getElementById("btnVoltarTopo");
+
+        // Exibe o botão quando o usuário rolar para baixo
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                VoltarTopo.style.display = "block";
+            } else {
+                VoltarTopo.style.display = "none";
+            }
+        };
+
+        // Volta ao topo quando o botão for clicado
+        VoltarTopo.onclick = function () {
+            window.scrollTo({
+                top: 0, // A posição final (topo da página)
+                behavior: "smooth" // Rolagem suave
+            });
+        };
+    </script>
+</body>
+
+</html>
